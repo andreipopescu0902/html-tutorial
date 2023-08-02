@@ -1,125 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Alex Zeu" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning and creating as I learn HTML."
+    />
+    <title>My first Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="Alex Zeu">
-        <meta name="description" content="This page contains all the things I am learning and creating as I learn HTML.">
-        <title>My first Web Page</title>
-        <link rel="icon" href="html5.png" type="image/x-icon">
-        <link rel="stylesheet" href="main.css" type="text/css">
-    </head>
+  <body>
+    <header>
+      <h1>My goals for the year</h1>
 
-    <body>
-        <header>
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li>
+            <a href="#html">Learning HTML</a>
+          </li>
 
-            <h1>My goals for the year</h1>
+          <li>
+            <a href="#vacation">Planning the vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#html">Learning HTML</a>
-                    </li>
+    <hr />
 
-                    <li>
-                        <a href="#vacation">Planning the vacation</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </header>
-
-        <hr>
-
-        <main>
-
-        <section id="html">
-
+    <main>
+      <article id="html">
         <h2>I am ready to learn HTML. I'm still learning.</h2>
         <p>This is my first webpage.</p>
+        <section>
+          <h3>HTML5</h3>
 
-        <img src="img/html5.png" alt="HTML5 Logo" title="I am learning HTML5"
-        width="250">
+          <img
+            src="img/html5.png"
+            alt="HTML5 Logo"
+            title="I am learning HTML5"
+            width="250"
+          />
 
-        <figure>
+          <figure>
             <figcaption>
-                An example of HTML5 code
-                <p>
-                    <code>
-                        &lt;h1&gt; Hello World! &lt;/h1&gt;
-                    </code>
-                </p>
+              An example of HTML5 code
+              <p>
+                <code> &lt;h1&gt; Hello World! &lt;/h1&gt; </code>
+              </p>
             </figcaption>
-        </figure>
-
-        <h3>My daily schedule.</h3>
-        <p>Let me tell you how:</p>
-            <ul>
-                <li>...I learn more about web dev.</li>
-                <li>...I plan out my schedule.</li>
-                <li>...I use resources from <abbr title="Mozilla Developer Network">
-                    <a href="https://developer.mozilla.org/">MDN</a>
-                </abbr>.</li>
-            </ul>
+          </figure>
         </section>
 
-        <hr>
+        <section>
+          <h3>My daily schedule.</h3>
+          <p>Let me tell you how:</p>
+          <ul>
+            <li>...I learn more about web dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>
+              ...I use resources from
+              <abbr title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a> </abbr
+              >.
+            </li>
+          </ul>
+          <aside>
+            <details>
+              <summary>Guess the mar number of hours I code per day</summary>
+              <p>I start at 10AM and i write code for 8 hours every day.</p>
+            </details>
+          </aside>
+        </section>
+      </article>
 
-        <section id="vacation">
+      <hr />
 
+      <article id="vacation">
         <h2>I am also planning a vacation.</h2>
-        <p>I've been working hard and <em><strong>really</strong></em> need a getaway.</p>
-        <p>I live in <a href="https://en.wikipedia.org/wiki/Kansas"><abbr title="Kansas">KS</abbr></a> so I want to visit a beach.</p>
+        <p>
+          I've been working hard and <em><strong>really</strong></em> need a
+          getaway.
+        </p>
+        <p>
+          I live in
+          <a href="https://en.wikipedia.org/wiki/Kansas"
+            ><abbr title="Kansas">KS</abbr></a
+          >
+          so I want to visit a beach.
+        </p>
 
-        <h3>Places I'd like to visit</h3>
-            <ul>
-                <li>
-                    <p>I've heard good things about the Caribbean.</p>
-                    <figure>
-                        <img src="img/caribbean.jpg" alt="Caribbean Beach" title="I want to visit a Caribbean Beach">
-                            <figcaption>
-                                Caribbean Beach Getaway
-                            </figcaption>
-                    </figure>
-                </li>
-        <li><p>I've heard good things about going here:</p>
-        <address>
-            Margaritaville Island Reserve Riviera 
-            Cancun<br>
-            Bahia Petempich Puerto Morelos,
-            Mexico<br>
-            Colonia Morelos, Mexico 77580
-        </address>
-        <figure>
-            <img src="img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'clock somewhere!">
-            <figcaption>
-                A Caribbean vacation image
-            </figcaption>
-        </figure>
-        </li>
-        </ul>
+        <section>
+          <h3>Places I'd like to visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the Caribbean.</p>
+              <figure>
+                <img
+                  src="img/caribbean.jpg"
+                  alt="Caribbean Beach"
+                  title="I want to visit a Caribbean Beach"
+                />
+                <figcaption>Caribbean Beach Getaway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've heard good things about going here:</p>
+              <address>
+                Margaritaville Island Reserve Riviera Cancun<br />
+                Bahia Petempich Puerto Morelos, Mexico<br />
+                Colonia Morelos, Mexico 77580
+              </address>
+              <figure>
+                <img
+                  src="img/vacation.jpg"
+                  alt="Cancun Vacation"
+                  title="It's 5 o'clock somewhere!"
+                />
+                <figcaption>A Caribbean vacation image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
 
         <!-- TODO: Add more places -->
 
-        <h3>Places I want to avoid</h3>
-        <dl>
+        <section>
+          <h3>Places I want to avoid</h3>
+          <dl>
             <dt>North Pole</dt>
-            <dd>I heard here is cold, <strong><em>but not colder</em></strong> than the South Pole. </dd>
+            <dd>
+              I heard here is cold,
+              <strong><em>but not colder</em></strong> than the South Pole.
+            </dd>
 
             <dt>Mountain Tops</dt>
             <dd>These are also cold.</dd>
-        </dl>    
-
+          </dl>
         </section>
+      </article>
+    </main>
 
-        </main>
-
-        <hr>
+    <hr />
+    <footer>
+      <p>
         &lt;&lt;&lt; &copy; <a href="about.html"> Alex Zeutul </a> &gt;&gt;&gt;
-        <p>
-            <a href="#">Back to Top</a>
-        </p>
-
-    </body>
-
+      </p>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+    </footer>
+  </body>
 </html>
