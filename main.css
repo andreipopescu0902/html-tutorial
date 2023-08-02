@@ -1,0 +1,18 @@
+body
+            {
+                background-color: rgb(255, 231, 201);
+                color: rgb(100, 0, 0);
+            }
+
+a {
+    color:rgb(0, 85, 255)
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover, a:active {
+    color: rgb(147, 147, 255);
+}
+
