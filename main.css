@@ -1,11 +1,46 @@
 body
             {
-                background-color: rgb(255, 231, 201);
-                color: rgb(100, 0, 0);
+                background-color: #CDE7B0;
+                font-family: "Century Gothic" ,CenturyGothic,AppleGothic,sans-serif;
+                font-size: 18px;
+                margin: 0;
             }
 
+header {
+    background-color: #59594A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    background-color: #7286A0;
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+}
+
 a {
-    color:rgb(0, 85, 255)
+    color:rgb(165, 195, 255)
 }
 
 a:visited {
@@ -14,11 +49,5 @@ a:visited {
 
 a:hover, a:active {
     color: rgb(147, 147, 255);
-}
-
-table, tr, th, td, caption {
-    border: 1px solid;
-    font-family: 'Courier New', Courier, monospace;
-    border-collapse: collapse;
-    padding: 0.5rem;
+    
 }
